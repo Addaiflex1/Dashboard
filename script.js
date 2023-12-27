@@ -12,8 +12,8 @@ toggle.addEventListener("click", () => {
 
 // Show search input box
 searchBtn.addEventListener("click", () => {
-   searchBtn.classList.toggle("active");
-});
+   sidebar.classList.remove("close");
+})
 
 // Check and set initial mode text
 if(body.classList.contains("dark")){
